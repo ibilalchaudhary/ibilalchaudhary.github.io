@@ -208,11 +208,7 @@ This also makes it really convenient when working with properties like transform
 // All we need to pass is the value needed by the transform, rather than
 // polluting our jsx with the full transform in the inline style
 function Button({ offset, children }) {
-  return (
-    <button className="button" style={{ '--offset': `${offset}px` }}>
-      {children}
-    </button>
-  );
+  return <button className="button">{children}</button>;
 }
 ```
 
