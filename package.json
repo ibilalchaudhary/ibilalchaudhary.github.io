@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "homepage": "https://ibilalchaudhary.me",
   "description": "Portfolio site for Muhammad Bilal",
-  "repository": "https://github.com/ibilalchaudhary/portfolio.git",
-  "author": "Muhammad Bilal <hello@ibilalchaudhary.me>",
+  "author": "Muhammad Bilal",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
+    "@netlify/plugin-nextjs": "^4.13.1",
     "@storybook/addon-a11y": "^6.4.22",
     "@storybook/addon-actions": "^6.4.22",
     "@storybook/addon-controls": "^6.4.22",
@@ -71,7 +71,6 @@
     ]
   },
   "engines": {
-    "npm": ">=8.6.0",
-    "node": ">=18.0.0"
+    "node": ">=0.7.0 <16.15.0"
   }
 }
